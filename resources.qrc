@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/splashbg.png</file>
+        <file>images/splashbackground.png</file>
+        <file>images/splashback.jpg</file>
+        <file>images/back1.jpg</file>
+        <file>images/logo.png</file>
+        <file>images/playback.jpg</file>
+    </qresource>
+    <qresource prefix="/maps">
+        <file>maps/map1.txt</file>
+        <file>maps/map2.txt</file>
+        <file>maps/map3.txt</file>
+        <file>maps/map4.txt</file>
+        <file>maps/map5.txt</file>
+        <file>maps/map6.txt</file>
+        <file>maps/map7.txt</file>
+        <file>maps/map8.txt</file>
+    </qresource>
+</RCC>
