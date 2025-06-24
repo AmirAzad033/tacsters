@@ -2,8 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "gallery.h"
 #include "battlefield.h"
+#include "gallery.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -26,6 +26,6 @@ private:
 private:
     Ui::MainWindow *ui;
     Gallery *gallery;
-    battlefield *battleField;
+    Battlefield *battlefield;
 };
 #endif // MAINWINDOW_H

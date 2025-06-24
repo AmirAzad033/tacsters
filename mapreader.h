@@ -1,28 +1,16 @@
 #ifndef MAPREADER_H
 #define MAPREADER_H
 
+#include "cell.h"
+#include <vector>
 #include <QString>
-#include <QVector>
 
-struct CellPosition {
-    int row;
-    int col;
-    enum Type { Empty, Player1, Player2, Stone, Water } type;
-};
+using CellPositions = std::vector<std::vector<Cell>>;
 
-class MapReader
-{
+class MapReader {
 public:
-    MapReader();
-    bool loadRandomMap(const QString& mapsFolder);
-    QVector<CellPosition> getCellPositions() const { return cellPositions; }
-    int getMapId() const { return mapId; }
-
-private:
-    QVector<CellPosition> cellPositions;
-    int mapId;
-
-    CellPosition::Type charToCellType(QChar c) const;
+    static CellPositions parseBoard(const QString &path);
 };
 
-#endif // MAPREADER_H
+
+#endif

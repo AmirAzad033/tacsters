@@ -17,4 +17,30 @@
         <file>maps/map7.txt</file>
         <file>maps/map8.txt</file>
     </qresource>
+    <qresource prefix="/agents">
+        <file>agents/Angus.png</file>
+        <file>agents/Billy.png</file>
+        <file>agents/Boi.png</file>
+        <file>agents/Bunka.png</file>
+        <file>agents/Colonel_Baba.png</file>
+        <file>agents/Death.png</file>
+        <file>agents/Duraham.png</file>
+        <file>agents/Eloi.png</file>
+        <file>agents/Elsa.png</file>
+        <file>agents/Frost.png</file>
+        <file>agents/Kabu.png</file>
+        <file>agents/Kanar.png</file>
+        <file>agents/Karissa.png</file>
+        <file>agents/Khan.png</file>
+        <file>agents/Medusa.png</file>
+        <file>agents/Rajakal.png</file>
+        <file>agents/Rambu.png</file>
+        <file>agents/Reketon.png</file>
+        <file>agents/Sabrina.png</file>
+        <file>agents/Salih.png</file>
+        <file>agents/Sanka.png</file>
+        <file>agents/Sir_Lamorak.png</file>
+        <file>agents/Sir_Philip.png</file>
+        <file>agents/Tusk.png</file>
+    </qresource>
 </RCC>

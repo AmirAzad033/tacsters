@@ -37,12 +37,8 @@ splash::splash(QWidget *parent)
     fantasylabel->move(position);
     fantasylabel->setAlignment(alignment);
     fantasylabel->setAttribute(Qt::WA_TranslucentBackground);
-    fantasylabel->setStyleSheet("background: transparent; color: black;");
+    fantasylabel->setStyleSheet("background: transparent;");
 
-    if (QLayout* layout = this->layout()) {
-        layout->removeWidget(ui->labell2);
-        layout->addWidget(fantasylabel);
-    }
     ui->labell2 = fantasylabel;
     layout->addStretch();
     layout->addWidget(ui->labell2, 0, Qt::AlignCenter);

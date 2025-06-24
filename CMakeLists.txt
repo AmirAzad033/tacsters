@@ -31,10 +31,25 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         gallery.h gallery.cpp gallery.ui
         namesdialog.h namesdialog.cpp
         battlefield.h battlefield.cpp battlefield.ui
-        hexboard.h hexboard.cpp
+        crystalgridview.h crystalgridview.cpp
 
-        fantasyedit.h fantasyedit.cpp
         mapreader.h mapreader.cpp
+
+
+
+        Agent.h
+
+
+
+        Agent.cpp
+        gamemanager.h gamemanager.cpp
+        cell.h cell.cpp
+        battlefield.h battlefield.cpp
+        battlefield.h battlefield.cpp
+        agentdet.h agentdet.cpp
+        AgentDet.h
+        gamephases.h gamephases.cpp
+
 
     )
 # Define target properties for Android with Qt 6 as:
