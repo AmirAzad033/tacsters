@@ -25,7 +25,7 @@ struct AgentPanel {
     int currentPage = 0;
     int agentsPerPage = 6;
 };
-
+//class
 class Battlefield : public QWidget
 {
     Q_OBJECT
