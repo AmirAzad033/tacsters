@@ -13,7 +13,7 @@ public:
     GameManager(const Board& boardData);
 
     Cell* accessCell(int row, int col);
-
+    //addAgentToCell
     void addAgentToCell(Agent* agent, int row, int col);
     void removeAgentFromCell(int row, int col);
     void transferAgentToCell(Agent* agent, int startRow, int startCol, int endRow, int endCol);
