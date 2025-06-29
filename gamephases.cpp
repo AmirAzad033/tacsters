@@ -19,6 +19,7 @@ int GamePhases::getCurrentPlayer() const
 
 int GamePhases::getPlayerPlacedAgents(int player) const
 {
+ //p1 vs p2
     if (player == 1) return m_placedAgents[0];
     if (player == 2) return m_placedAgents[1];
     return 0;

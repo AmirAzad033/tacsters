@@ -10,7 +10,7 @@ class FantasyButton : public QPushButton
     Q_OBJECT
     Q_PROPERTY(qreal glowIntensity READ glowIntensity WRITE setGlowIntensity)
     Q_PROPERTY(int pressDepth READ pressDepth WRITE setPressDepth)
-//blah //blah
+
 public:
     explicit FantasyButton(const QString &text, QWidget *parent = nullptr);
     qreal glowIntensity() const { return m_glow; }
