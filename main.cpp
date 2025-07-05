@@ -8,5 +8,4 @@ int main(int argc, char *argv[])
     splash s;
     s.show();
     return a.exec();
-	//end
 }

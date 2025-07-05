@@ -9,7 +9,7 @@ enum class TerrainType {
     Water,
     Rock
 };
-
+//implementing the cell
 class Cell {
 public:
     int row;
