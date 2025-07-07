@@ -9,6 +9,7 @@ FantasyButton::FantasyButton(const QString &text, QWidget *parent)
     setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
 
     QGraphicsDropShadowEffect* shadow = new QGraphicsDropShadowEffect();
+		//implementing shadows
     shadow->setBlurRadius(15);
     shadow->setColor(QColor(255, 50, 50, 150));
     shadow->setOffset(0, 5);
