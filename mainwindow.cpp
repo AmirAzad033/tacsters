@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     statusBar()->hide();
     QIcon *q = new QIcon(":/images/images/splashbackground.png");
     MainWindow::setWindowIcon(*q);
-
+	//adding centralWidget
     QWidget *centralWidget = new QWidget(this);
     this->setCentralWidget(centralWidget);
     centralWidget->setStyleSheet("background-image: url(:/images/images/splashback.jpg); background-position: center;");
